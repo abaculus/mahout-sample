@@ -43,8 +43,7 @@ public class MovieRecommender {
 		final Recommender recommender = new GenericUserBasedRecommender(model, neighborhood, similarity);
 
 		/*
-		 * First parameter is UserID, the second is the number of items to be
-		 * recommended
+		 * First parameter is UserID, the second is the number of items to be recommended.
 		 */
 		final int userIdToGetRecommendationsFor = 1;
 		final int numberOfRecommendations = 2;
